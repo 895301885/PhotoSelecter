@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.utils;
+package com.lib_choosepic.utils;
 
 import android.app.Activity;
 import android.app.Application;
@@ -10,8 +10,8 @@ import android.os.Build;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 
-import com.xm4399.lib_choosepic.activity.CustGalleryActivity;
-import com.xm4399.lib_choosepic.enums.SelectType;
+import com.lib_choosepic.activity.CustGalleryActivity;
+import com.lib_choosepic.enums.SelectType;
 
 import java.io.File;
 

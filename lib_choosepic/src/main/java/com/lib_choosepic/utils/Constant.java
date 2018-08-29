@@ -1,9 +1,9 @@
-package com.xm4399.lib_choosepic.utils;
+package com.lib_choosepic.utils;
 
 public class Constant {
     /**
      * 选择的图片类型  单张剪切 单张 多张 等等
-     * {@link com.xm4399.lib_choosepic.enums.SelectType}
+     * {@link com.lib_choosepic.enums.SelectType}
      */
     public static final String SELECT_TYPE = "select_type";
     /**

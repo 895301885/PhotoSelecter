@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.adapter;
+package com.lib_choosepic.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.xm4399.lib_choosepic.R;
-import com.xm4399.lib_choosepic.entity.GalleryEntity;
-import com.xm4399.lib_choosepic.utils.PicassoUtil;
+import com.lib_choosepic.R;
+import com.lib_choosepic.entity.GalleryEntity;
+import com.lib_choosepic.utils.PicassoUtil;
 
 import java.util.ArrayList;
 
@@ -18,7 +18,7 @@ public class GalleryAdapter extends BaseAdapter {
 
     private Context mContext;
     private LayoutInflater infalter;
-    private ArrayList<GalleryEntity> data = new ArrayList<GalleryEntity>();
+    private ArrayList<GalleryEntity> data = new ArrayList<>();
 
     public GalleryAdapter(Context mContext) {
         this.mContext = mContext;
@@ -46,7 +46,7 @@ public class GalleryAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ViewHolder holder = null;
+        ViewHolder holder ;
         if (convertView == null) {
             holder = new ViewHolder();
             convertView = infalter.inflate(R.layout.item_gallery, null);

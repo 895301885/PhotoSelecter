@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.enums;
+package com.lib_choosepic.enums;
 
 import java.io.Serializable;
 

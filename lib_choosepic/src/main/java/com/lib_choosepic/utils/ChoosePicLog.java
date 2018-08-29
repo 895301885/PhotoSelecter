@@ -1,10 +1,10 @@
-package com.xm4399.lib_choosepic.utils;
+package com.lib_choosepic.utils;
 
 import android.util.Log;
 
 public class ChoosePicLog {
     public static boolean SHOW_LOG = false;
-    public static String LOG_TAG = "ChoosePic";
+    private static String LOG_TAG = "ChoosePic";
 
     public static void i(String logMsg) {
         if (SHOW_LOG) {

@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.activity;
+package com.lib_choosepic.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,16 +15,16 @@ import android.widget.GridView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.xm4399.lib_choosepic.R;
-import com.xm4399.lib_choosepic.adapter.GalleryAdapter;
-import com.xm4399.lib_choosepic.entity.GalleryBucketEntity;
-import com.xm4399.lib_choosepic.entity.GalleryEntity;
-import com.xm4399.lib_choosepic.enums.SelectType;
-import com.xm4399.lib_choosepic.utils.ChoosePic;
-import com.xm4399.lib_choosepic.utils.ChoosePicLog;
-import com.xm4399.lib_choosepic.utils.Constant;
-import com.xm4399.lib_choosepic.utils.Consumer;
-import com.xm4399.lib_choosepic.view.SelectBucketPopupWindow;
+import com.lib_choosepic.R;
+import com.lib_choosepic.adapter.GalleryAdapter;
+import com.lib_choosepic.entity.GalleryBucketEntity;
+import com.lib_choosepic.entity.GalleryEntity;
+import com.lib_choosepic.enums.SelectType;
+import com.lib_choosepic.utils.ChoosePic;
+import com.lib_choosepic.utils.ChoosePicLog;
+import com.lib_choosepic.utils.Constant;
+import com.lib_choosepic.utils.Consumer;
+import com.lib_choosepic.view.SelectBucketPopupWindow;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.entity;
+package com.lib_choosepic.entity;
 
 /**
  * 相册图片entity
@@ -7,7 +7,7 @@ package com.xm4399.lib_choosepic.entity;
  * @since 18-07-26 15:27
  */
 public class GalleryEntity {
-    public String sdcardPath;
+    private String sdcardPath;
 
     public String getSdcardPath() {
         return sdcardPath;

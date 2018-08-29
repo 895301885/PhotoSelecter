@@ -1,9 +1,9 @@
-package com.example.a4399.rxjavademo;
+package com.example.rxjavademo;
 
 import android.app.Application;
 
-import com.xm4399.lib_choosepic.utils.ChoosePic;
-import com.xm4399.lib_choosepic.utils.ChoosePicLog;
+import com.lib_choosepic.utils.ChoosePic;
+import com.lib_choosepic.utils.ChoosePicLog;
 
 public class App extends Application {
 

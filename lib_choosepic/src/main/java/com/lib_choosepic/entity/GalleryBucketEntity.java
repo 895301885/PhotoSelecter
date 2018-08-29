@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.entity;
+package com.lib_choosepic.entity;
 
 import java.util.ArrayList;
 
@@ -49,7 +49,7 @@ public class GalleryBucketEntity {
         if (galleries == null || galleries.size() == 0) {
             return "";
         }
-        return galleries.get(galleries.size() - 1).sdcardPath;
+        return galleries.get(galleries.size() - 1).getSdcardPath();
     }
 
     /**

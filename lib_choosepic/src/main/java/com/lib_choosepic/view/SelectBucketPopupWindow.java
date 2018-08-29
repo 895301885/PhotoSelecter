@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.view;
+package com.lib_choosepic.view;
 
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;
@@ -12,10 +12,10 @@ import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.xm4399.lib_choosepic.R;
-import com.xm4399.lib_choosepic.entity.GalleryBucketEntity;
-import com.xm4399.lib_choosepic.utils.Consumer;
-import com.xm4399.lib_choosepic.utils.PicassoUtil;
+import com.lib_choosepic.R;
+import com.lib_choosepic.entity.GalleryBucketEntity;
+import com.lib_choosepic.utils.Consumer;
+import com.lib_choosepic.utils.PicassoUtil;
 
 import java.util.ArrayList;
 

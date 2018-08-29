@@ -1,4 +1,4 @@
-package com.xm4399.lib_choosepic.utils;
+package com.lib_choosepic.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
-import com.xm4399.lib_choosepic.R;
+import com.lib_choosepic.R;
 
 import java.io.File;
 

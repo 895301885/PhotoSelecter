@@ -1,4 +1,4 @@
-package com.example.a4399.rxjavademo;
+package com.example.rxjavademo;
 
 import android.Manifest;
 import android.content.Intent;
@@ -12,10 +12,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.tbruyelle.rxpermissions.RxPermissions;
-import com.xm4399.lib_choosepic.enums.SelectType;
-import com.xm4399.lib_choosepic.utils.ChoosePic;
-import com.xm4399.lib_choosepic.utils.Constant;
-import com.xm4399.lib_choosepic.utils.PicassoUtil;
+import com.lib_choosepic.enums.SelectType;
+import com.lib_choosepic.utils.ChoosePic;
+import com.lib_choosepic.utils.Constant;
+import com.lib_choosepic.utils.PicassoUtil;
 
 import rx.functions.Action1;
 

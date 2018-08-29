@@ -22,7 +22,7 @@
  * or visit www.oracle.com if you need additional information or have any
  * questions.
  */
-package com.xm4399.lib_choosepic.utils;
+package com.lib_choosepic.utils;
 
 import java.util.Objects;
 
