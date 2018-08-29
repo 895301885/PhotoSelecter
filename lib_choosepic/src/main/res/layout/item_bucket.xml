@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="7dp">
+
+    <ImageView
+        android:id="@+id/iv_bucket"
+        android:layout_width="59dp"
+        android:layout_height="59dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="left">
+
+            <TextView
+                android:id="@+id/tv_bucket_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toLeftOf="@+id/tv_bucket_num"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="所有"
+                android:textSize="@dimen/item_content" />
+
+            <TextView
+                android:id="@+id/tv_bucket_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="(304)"
+                android:textSize="@dimen/item_content" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

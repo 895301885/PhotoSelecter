@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_background">#f2f2f2</color>
+    <color name="line_color">#eeeae8</color>
+    <color name="white">#ffffff</color>
+</resources>

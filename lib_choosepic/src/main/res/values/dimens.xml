@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_title">17sp</dimen>
+    <dimen name="item_content">15sp</dimen>
+    <dimen name="titlebar_titletext">17dp</dimen>
+    <dimen name="textsize_title">17sp</dimen>
+    <dimen name="titlebar_left_right">16dp</dimen>
+    <dimen name="top_head_height">50dp</dimen>
+    <dimen name="swipe_progress_bar_height">8dp</dimen>
+    <dimen name="topic_detail_images_padding">10dp</dimen>
+    <dimen name="app_pading_horizontal">17dp</dimen>
+    <dimen name="app_pading_vertical">11dp</dimen>
+
+</resources>
