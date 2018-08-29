@@ -3,7 +3,7 @@ package com.lib_choosepic.utils;
 import android.util.Log;
 
 public class ChoosePicLog {
-    public static boolean SHOW_LOG = true;
+    public static boolean SHOW_LOG = false;
     private static String LOG_TAG = "ChoosePics";
 
     public static void i(String logMsg) {
