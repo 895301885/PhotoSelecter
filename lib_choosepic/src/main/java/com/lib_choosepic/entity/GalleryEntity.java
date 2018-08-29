@@ -7,6 +7,7 @@ package com.lib_choosepic.entity;
  * @since 18-07-26 15:27
  */
 public class GalleryEntity {
+
     private String sdcardPath;
 
     public String getSdcardPath() {
