@@ -5,7 +5,6 @@ import android.util.Log;
 public class ChoosePicLog {
     public static boolean SHOW_LOG = false;
     private static String LOG_TAG = "ChoosePics";
-    private static String FS = "ChoosePis";
 
     public static void i(String logMsg) {
         if (SHOW_LOG) {
