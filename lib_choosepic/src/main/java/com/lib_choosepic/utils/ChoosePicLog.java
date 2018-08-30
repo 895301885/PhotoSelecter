@@ -14,7 +14,6 @@ public class ChoosePicLog {
         }
     }
   int ss=5;
-  int ss2=5;
     public static void e(String logMsg) {
         if (SHOW_LOG) {
             Log.e(LOG_TAG, logMsg);
